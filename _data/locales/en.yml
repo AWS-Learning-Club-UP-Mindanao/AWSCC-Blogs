@@ -1,0 +1,37 @@
+# Layout text of the site
+
+# The tabs of the sidebars
+
+tabs:
+  home: Home
+  categories: Categories
+  tags: Tags
+  archives: Timeline
+  about: About Us
+
+# The text displayed in the search bar & search results
+search:
+  hint: search
+  cancel: Cancel
+  no_results: It seems I cannot find it here in the cloud. Try a different search term!
+
+copyright:
+  # Shown at the bottom of the post
+  license:
+    template: This post is licensed under the copyright by the author.
+  name: CC BY 4.0
+
+  # Displayed in the footer
+  brief: Cloud Computing is the FUTURE
+  # verbose: >-
+  #   Except where otherwise noted, the blog posts on this site are licensed
+  #   under the Creative Commons Attribution 4.0 International (CC BY 4.0) License by the author.
+
+meta: AWS
+
+not_found:
+  statement: Oops! This resource returned a 404 from our cloud infrastructure ☁️. Try navigating to a different endpoint! 🔗
+
+notification:
+  update_found: A new version has been pushed to production
+  update: Update

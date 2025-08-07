@@ -1,0 +1,65 @@
+---
+---
+
+@use 'main';
+
+/* Custom background gradient */
+body {
+  background: linear-gradient(180deg, #0f0b26 0%, #1e003d 70%) !important;
+}
+
+/* Sidebar background */
+#sidebar,
+.sidebar-wrapper,
+#nav-wrapper {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Topbar - transparent to background */
+#topbar,
+#topbar-wrapper,
+.navbar,
+nav {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Toc - transparent to background */
+.toc-border-cover,
+#toc-wrapper::before,
+#toc-wrapper::after {
+  background: transparent !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+/* Footer - transparent to background */
+footer,
+.site-footer {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Search bar - transparent to background */
+.search-wrapper,
+#search-wrapper,
+.form-control {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
+/* Custom card styling for posts */
+.card,
+.card-header,
+.post-preview,
+.list-group-item {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(14.1px) !important;
+}
+
+/* Timeline - transparent to background */
+#archives > .list-unstyled > li {
+  background: rgba(255, 255, 255, 0.05) !important;
+  backdrop-filter: blur(14.1px) !important;
+}
