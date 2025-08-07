@@ -1,8 +1,8 @@
 ---
 title: Security with AWS Cognito - Building Your First User Pool
 description: This walkthrough will introduce you to Amazon Cognito's user pools and hosted UI service, which is just the beginning of your journey through the Amazon cloud. While this tutorial focused on manual configuration in the console, like with many AWS services, Cognito also covers SDKs and integrations with other frameworks, such as React and Flutter.
-author: Precious Mae Jomuad
 date: 2024-11-04
+author: Precious Mae Jomuad
 categories: [Security]
 tags: [Amazon Cognito, Web Development]
 pin: false
